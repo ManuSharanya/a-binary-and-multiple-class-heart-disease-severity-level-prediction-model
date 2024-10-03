@@ -4,6 +4,8 @@ Following files have been added:
 2. App.py - Flask Framework with Sqlite for signup and signin
 3. heart_disease_uci.csv - Heart disease UCI dataset has been used
 
+We built this project based on an IEEE paper https://ieeexplore.ieee.org/document/9517094.
+
 Introduction:
 
 Heart disease seriously threatens human life due to high morbidity and mortality. Accurate prediction and diagnosis become more critical for early prevention, detection, and treatment. The Internet of Medical Things and artificial intelligence support healthcare services in heart disease monitoring, prediction, and diagnosis. However, most prediction models only predict whether people are sick, and rarely further determine the severity of the disease. In this article, we propose a machine learning based prediction model to achieve binary and multiple classification heart disease prediction simultaneously. We first design a Fuzzy-GBDT algorithm combining fuzzy logic and gradient boosting decision tree (GBDT) to reduce data complexity and increase the generalization of binary classification prediction. Then, we integrate Fuzzy-GBDT with bagging to avoid overfitting. The Bagging-Fuzzy-GBDT for multiclassification prediction further classify the severity of heart disease. Evaluation results demonstrate the BaggingFuzzy-GBDT has excellent accuracy and stability in both binary and multiple classification predictions.
